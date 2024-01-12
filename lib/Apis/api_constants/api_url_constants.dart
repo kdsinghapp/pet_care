@@ -1,0 +1,36 @@
+class ApiUrlConstants {
+  static const String baseUrlMain = 'https://server-php-7-3.technorizen.com/PetCare';
+  static const String baseUrl = '$baseUrlMain/webservice/';
+  static const String endPointOfSignUp = '${baseUrl}signup';
+  static const String endPointOfUpdateProfile = '${baseUrl}update_profile';
+  static const String endPointOfLogin = '${baseUrl}login';
+  static const String endPointOfLogout = '${baseUrl}logout';
+  static const String endPointOfDeleteAccount = '${baseUrl}delete_account';
+  static const String endPointOfForgot = '${baseUrl}forgot_password';
+  static const String endPointOfCheckOtp='${baseUrl}check_otp';
+  static const String endPointOfResetPassword='${baseUrl}reset_password';
+  static const String endPointOfChangePassword='${baseUrl}change_password';
+  static const String endPointOfPrivacyPolicy='${baseUrl}get_privacy_policy';
+  static const String endPointOfNotification='${baseUrl}get_notifications';
+  static const String endPointOfTermsCondition='${baseUrl}get_terms_conditions';
+  static const String endPointOfGetBanner='${baseUrl}get_banner';
+  static const String endPointOfChooseCategory='${baseUrl}get_category';
+  static const String endPointOfSupportUs='${baseUrl}contact_us';
+  static const String endPointOfDeleteAccountRequest = '${baseUrl}delete-account-request';
+  static const String endPointOfProductList = '${baseUrl}get_product_list';
+  static const String endPointOfProductDetail = '${baseUrl}get_product_details';
+  static const String endPointOfAddToCart = '${baseUrl}add_to_cart';
+  static const String endPointOfGetCartList = '${baseUrl}get_cart';
+  static const String endPointOfDeleteCartItem = '${baseUrl}delete_cart_data';
+  static const String endPointOfAddPost = '${baseUrl}add_post';
+  static const String endPointOfGetMyPost = '${baseUrl}get_my_post';
+  static const String endPointOfLikeUnLike = '${baseUrl}like_unlike_post';
+  static const String endPointOfSubmitComment = '${baseUrl}add_post_comment';
+  static const String endPointOfFollowUnFollow = '${baseUrl}follow_unfollow';
+  static const String endPointOfFAQ = '${baseUrl}get_faqs';
+  static const String endPointOfSearchHistory = '${baseUrl}get_search_history';
+  static const String endPointOfDeleteSearchHistory = '${baseUrl}delete_search_history';
+  static const String endPointOfSubmitRateUs = '${baseUrl}rate_us';
+  static const String endPointOfSearchUserByName = '${baseUrl}search_user';
+  static const String endPointOfGetFollowers = '${baseUrl}get_following';
+}
